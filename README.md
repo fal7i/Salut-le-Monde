@@ -6,7 +6,11 @@ rassembler plusieurs travaux
    * ffmpeg
    * GAP
 * galerie
+  * dia.js
+  * ls.sh
 * regex parser
 * musique
+  * mu
 * photo
-
+  * Imagemagick
+  
