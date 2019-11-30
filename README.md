@@ -20,6 +20,6 @@ rassembler plusieurs travaux
 
 * photo
   * Imagemagick
-  
-shell code test
+  * exiv2
+  ```  exiv2 -F -r img_%Y%m%d_%H%M%S  *.jpg ```
 
