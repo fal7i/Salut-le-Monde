@@ -1,0 +1,22 @@
+#! /bin/bash
+
+echo "P3
+# CREATOR: fal7i-χρονικά
+64 64
+255 " >kronic.ppm
+for a in {255..0..16}
+ do 
+	for b in {0..255..16}
+	 do 
+		for c in {0..255..16}
+		 do
+	     echo $b >>kronic.ppm
+		  echo $a >>kronic.ppm	  
+		  echo $c >>kronic.ppm
+		 done	     
+	 done   
+ done
+
+mogrify -format png kronic.ppm
+mogrify  -resize 512 kronic.png
+
